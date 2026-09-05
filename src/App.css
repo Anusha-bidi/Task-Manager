@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: gray;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.task-form {
+  margin: 20px 0;
+}
+
+.task-form input,
+.task-form select,
+.task-form button {
+  padding: 8px;
+  margin: 5px;
+}
+
+.section {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+}
+
+.theme-btn {
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.app.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.theme-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.search-box {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.clear-btn {
+  padding: 10px 15px;
+  margin-top: 15px;
+}
